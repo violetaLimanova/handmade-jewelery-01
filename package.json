@@ -1,11 +1,11 @@
 {
-  "name": "handmade-jewelery-1",
+  "name": "handmade-jewelery-01",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/handmade-jewelery-1/",
+    "build": "vite build --base=/handmade-jewelery-01/",
     "preview": "vite preview"
   },
   "devDependencies": {
