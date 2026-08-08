@@ -1,0 +1,120 @@
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    image-set(
+      url(../img/mobile-header.webp) 1x,
+      url(../img/mobile-header@2x.webp) 2x
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 160px 20px 0px;
+  max-width: 1440px;
+  height: 656px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      image-set(
+        url(../img/tablet-header.webp) 1x,
+        url(../img/tablet-header@2x.webp) 2x
+      );
+    padding: 160px 32px 0px;
+    height: 864px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      image-set(
+        url(../img/desktop-header.webp) 1x,
+        url(../img/desktop-header@2x.webp) 2x
+      );
+    padding: 224px 0px 0px 64px;
+  }
+}
+
+.hero-container {
+}
+.hero-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 513px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 56px;
+    max-width: 640px;
+  }
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 513px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-text {
+    max-width: 640px;
+  }
+}
+
+.hero-btn {
+  background-color: #ccc16e;
+  border: 1px solid #ccc16e;
+  padding: 6px 12px;
+  width: 100%;
+  height: 36px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #191919;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #fff;
+}
+
+.hero-btn:active {
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-btn {
+    width: 217px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-btn {
+    width: 192px;
+  }
+}
