@@ -1,0 +1,251 @@
+.contacts-form-section {
+  padding: 64px 0;
+}
+.contacts-container {
+  color: #000;
+}
+.contacts-subheader {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.contacts-header {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .contacts-header {
+    font-size: 48px;
+  }
+}
+.contacts-dscr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.form-and-contacts-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .form-and-contacts-wrapper {
+    flex-direction: row;
+  }
+}
+
+.form-wrapper {
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .contacts-form {
+    width: 640px;
+  }
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.contacts-input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  padding: 8px 12px;
+  margin-bottom: 24px;
+  color: #000;
+
+  transition:
+    border-color 250ms ease,
+    color 250ms ease,
+    margin-bottom 250ms ease;
+}
+
+.contacts-input:focus {
+  border-color: #ccc16e;
+}
+
+.contacts-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contacts-input:user-invalid {
+  color: #8c0000;
+  border-color: #8c0000;
+  margin-bottom: 8px;
+}
+
+.error-text {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8c0000;
+}
+
+.contacts-input:user-invalid + .error-text {
+  display: block;
+}
+
+.textarea-label {
+  margin-bottom: 8px;
+}
+.contacts-textarea {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  outline: none;
+  padding: 12px;
+  height: 180px;
+  resize: none;
+  margin-bottom: 24px;
+
+  color: #000;
+
+  transition:
+    border-color 250ms ease,
+    color 250ms ease;
+}
+
+.contacts-textarea:focus {
+  border-color: #ccc16e;
+}
+
+.contacts-textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-button {
+  display: inline-block;
+  width: 100%;
+  height: 36px;
+  box-sizing: border-box;
+
+  border: 1px solid #ccc16e;
+  background-color: #ccc16e;
+  padding: 6px 12px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+
+  transition:
+    background-color 250ms ease,
+    box-shadow 250ms ease;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: transparent;
+}
+
+.form-button:active {
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
+}
+
+@media only screen and (min-width: 768px) {
+  .form-button {
+    width: 249px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .form-button {
+    width: 192px;
+  }
+}
+
+.contacts-wrapper {
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts-list {
+    flex-direction: row;
+    gap: 25px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contacts-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 640px;
+  }
+}
+
+.contacts-item {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts-item {
+    width: calc((100% - 50px) / 3);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contacts-item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+.contacts-svg {
+  margin-bottom: 16px;
+  display: block;
+}
+.contacts-headline {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+.contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+  color: inherit;
+
+  transition: color 250ms ease;
+}
+
+.contacts-link:focus,
+.contacts-link:hover {
+  text-decoration: underline;
+}
+
+.contacts-link:active {
+  color: #8668c7;
+}
