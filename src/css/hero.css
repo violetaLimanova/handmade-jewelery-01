@@ -98,7 +98,9 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 250ms ease-in-out;
+  transition:
+    background-color 250ms ease,
+    box-shadow 250ms ease;
 }
 
 .btn-hero:hover,
