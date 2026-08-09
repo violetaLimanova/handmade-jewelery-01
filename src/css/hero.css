@@ -111,13 +111,13 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-btn {
+  .btn-hero {
     width: 217px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .hero-btn {
+  .btn-hero {
     width: 192px;
   }
 }
