@@ -96,6 +96,7 @@
   line-height: 150%;
   color: #191919;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 250ms ease-in-out;
 }
