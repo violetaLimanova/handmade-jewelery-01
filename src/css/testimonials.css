@@ -1,0 +1,142 @@
+.testimonials {
+  padding: 64px 0;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testimonials-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.testimonials-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonials-item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 260px;
+}
+
+.testimonials-picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonials-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials-review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+}
+
+.testimonials-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.testimonials-star {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #000;
+}
+
+.testimonials-quote {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.testimonials-author {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonials-list {
+    flex-flow: row wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .testimonials-item:nth-child(1),
+  .testimonials-item:nth-child(2) {
+    width: 203px;
+  }
+
+  .testimonials-item:nth-child(3) {
+    width: 250px;
+  }
+
+  .testimonials-item:nth-child(4) {
+    width: 248px;
+  }
+
+  .testimonials-item:nth-child(5),
+  .testimonials-item:nth-child(6) {
+    width: 204px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .testimonials-container {
+    gap: 80px;
+  }
+
+  .testimonials-title {
+    font-size: 48px;
+  }
+
+  .testimonials-list {
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+
+  .testimonials-item:nth-child(1),
+  .testimonials-item:nth-child(2),
+  .testimonials-item:nth-child(5),
+  .testimonials-item:nth-child(6) {
+    width: 304px;
+  }
+
+  .testimonials-item:nth-child(3),
+  .testimonials-item:nth-child(4) {
+    width: 640px;
+  }
+}

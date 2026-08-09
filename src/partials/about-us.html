@@ -1,0 +1,54 @@
+<section class="about-us" id="about-us">
+  <div class="container about-us-container">
+    <picture class="about-us-picture">
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./images/about-us-desktop.webp    1x,
+          ./images/about-us-desktop@2x.webp 2x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/about-us-tablet.webp    1x,
+          ./images/about-us-tablet@2x.webp 2x
+        "
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./images/about-us-mobile.webp    1x,
+          ./images/about-us-mobile@2x.webp 2x
+        "
+        type="image/webp"
+      />
+      <img
+        class="about-us-image"
+        src="./images/about-us-mobile.webp"
+        width="335"
+        height="335"
+        alt="A jeweler carefully engraving a handmade ring"
+        loading="lazy"
+      />
+    </picture>
+
+    <div class="about-us-content">
+      <h2 class="about-us-title">The Artistry Behind Handmade Jewelry</h2>
+      <p class="about-us-description">
+        Handmade Jewelry began as a passion project, inspired by the beauty of
+        nature and the desire to create meaningful pieces. Each item is crafted
+        with love, reflecting our commitment to sustainability and the unique
+        story of its maker.
+      </p>
+      <ul class="about-us-list">
+        <li class="about-us-item about-us-item-leaf">Inspired by Nature</li>
+        <li class="about-us-item about-us-item-heart">Handcrafted with Love</li>
+        <li class="about-us-item about-us-item-book">
+          Every Piece Tells a Story
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
