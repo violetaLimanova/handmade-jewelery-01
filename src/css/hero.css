@@ -84,7 +84,7 @@
   }
 }
 
-.hero-btn {
+.btn-hero {
   display: inline-block;
   background-color: #ccc16e;
   border: 1px solid #ccc16e;
@@ -100,12 +100,12 @@
   transition: background-color 250ms ease-in-out;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.btn-hero:hover,
+.btn-hero:focus {
   background-color: #fff;
 }
 
-.hero-btn:active {
+.btn-hero:active {
   background-color: #ccc16e;
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
 }
