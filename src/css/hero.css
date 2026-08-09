@@ -2,8 +2,8 @@
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     image-set(
-      url(../img/mobile-header.webp) 1x,
-      url(../img/mobile-header@2x.webp) 2x
+      url(../images/mobile-header.webp) 1x,
+      url(../images/mobile-header@2x.webp) 2x
     );
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,8 +19,8 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       image-set(
-        url(../img/tablet-header.webp) 1x,
-        url(../img/tablet-header@2x.webp) 2x
+        url(../images/tablet-header.webp) 1x,
+        url(../images/tablet-header@2x.webp) 2x
       );
     padding: 160px 32px 0px;
     height: 864px;
@@ -32,8 +32,8 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       image-set(
-        url(../img/desktop-header.webp) 1x,
-        url(../img/desktop-header@2x.webp) 2x
+        url(../images/desktop-header.webp) 1x,
+        url(../images/desktop-header@2x.webp) 2x
       );
     padding: 224px 0px 0px 64px;
   }
@@ -85,6 +85,7 @@
 }
 
 .hero-btn {
+  display: inline-block;
   background-color: #ccc16e;
   border: 1px solid #ccc16e;
   padding: 6px 12px;
@@ -94,8 +95,9 @@
   font-size: 16px;
   line-height: 150%;
   color: #191919;
+  text-align: center;
   cursor: pointer;
-  transition: background-color 300ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
 }
 
 .hero-btn:hover,
@@ -104,6 +106,7 @@
 }
 
 .hero-btn:active {
+  background-color: #ccc16e;
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
 }
 

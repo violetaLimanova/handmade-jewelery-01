@@ -20,6 +20,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
