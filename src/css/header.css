@@ -80,7 +80,7 @@
 }
 .modal-exit:active {
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
-  background: var #ccc16e;
+  background: #ccc16e;
 }
 
 /*=======TABLET========*/
@@ -134,7 +134,7 @@
 
   .button-ds:active {
     box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
-    background: var #ccc16e;
+    background: #ccc16e;
   }
 
   .modal-btn {
@@ -192,7 +192,7 @@
 
   .button-ds:active {
     box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
-    background: var #ccc16e;
+    background: #ccc16e;
   }
   .modal-btn {
     display: none;
