@@ -67,6 +67,17 @@
   color: var(--color-scheme-1-text);
   margin-bottom: 24px;
 }
+
+.description:hover,
+.description:focus {
+  text-decoration: underline;
+}
+
+.description:active {
+  color: #8668c7;
+  text-decoration: none;
+}
+
 .modal-exit {
   background: #ccc16e;
   border: 1px solid #ccc16e;
@@ -106,6 +117,15 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-scheme-1-text);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    text-decoration: underline;
+  }
+  .nav-link:active {
+    color: #8668c7;
+    text-decoration: none;
   }
 
   .button {
@@ -164,6 +184,15 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-scheme-1-text);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    text-decoration: underline;
+  }
+  .nav-link:active {
+    color: #8668c7;
+    text-decoration: none;
   }
 
   .button {
