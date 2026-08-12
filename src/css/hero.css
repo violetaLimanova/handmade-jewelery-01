@@ -22,7 +22,7 @@
         url(../images/tablet-header.webp) 1x,
         url(../images/tablet-header@2x.webp) 2x
       );
-    padding: 160px 32px 0px;
+    padding-top: 160px;
     height: 864px;
   }
 }
@@ -35,7 +35,7 @@
         url(../images/desktop-header.webp) 1x,
         url(../images/desktop-header@2x.webp) 2x
       );
-    padding: 224px 0px 0px 64px;
+    padding-top: 224px;
   }
 }
 
