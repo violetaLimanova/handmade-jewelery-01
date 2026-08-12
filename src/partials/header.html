@@ -1,20 +1,22 @@
 <header class="header">
   <div class="container container-header">
     <a href="./index.html" class="logo">
-      <svg width="84" height="36">
+      <svg>
         <use href="./images/icons.svg#CompanyLogo"></use>
       </svg>
     </a>
 
-    <ul class="header-link">
-      <li><a class="nav-link" href="#About-us">About us</a></li>
-      <li><a class="nav-link" href="#Benefits">Benefits</a></li>
-      <li><a class="nav-link" href="#Gallery">Gallery</a></li>
-      <li><a class="nav-link" href="#Testimonials">Testimonials</a></li>
-      <li><a class="nav-link" href="#Contacts">Contacts</a></li>
-    </ul>
+    <nav class="header-nav">
+      <ul class="header-link">
+        <li><a class="nav-link" href="#about-us">About us</a></li>
+        <li><a class="nav-link" href="#benefits">Benefits</a></li>
+        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="nav-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
     <div class="button">
-      <button class="button-ds" type="button">Order Now</button>
+      <a href="#contacts" class="button-ds">Order Now</a>
     </div>
 
     <!--модальне вікно-->
@@ -30,26 +32,28 @@
 <!--мобільне меню-->
 <div class="modal-overlay">
   <div class="mobile-menu">
-    <ul class="mobile-header">
-      <li>
-        <svg width="149" height="47">
+    <div class="mobile-header">
+      <a href="./index.html" class="logo">
+        <svg>
           <use href="./images/icons.svg#CompanyLogo"></use>
         </svg>
-      </li>
-      <li>
+      </a>
+      <button type="button" class="close-btn">
         <svg width="24" height="24">
           <use href="./images/icons.svg#x1"></use>
         </svg>
-      </li>
-    </ul>
+      </button>
+    </div>
 
-    <ul class="about">
-      <li class="description">About us</li>
-      <li class="description">Benefits</li>
-      <li class="description">Gallery</li>
-      <li class="description">Testimonials</li>
-      <li class="description">Contacts</li>
-    </ul>
-    <button class="modal-exit" type="button">Order Now</button>
+    <nav class="modal-nav">
+      <ul class="about">
+        <li><a class="description" href="#about-us">About us</a></li>
+        <li><a class="description" href="#benefits">Benefits</a></li>
+        <li><a class="description" href="#gallery">Gallery</a></li>
+        <li><a class="description" href="#testimonials">Testimonials</a></li>
+        <li><a class="description" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <a href="#contacts" class="modal-exit">Order Now</a>
   </div>
 </div>
